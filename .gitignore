@@ -1,0 +1,24 @@
+# Angular / Node
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/coverage/
+
+# Go
+backend/*.exe
+backend/*.test
+backend/coverage.out
+
+# Entorno y secretos
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+**/*.pem
+**/*.key
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
